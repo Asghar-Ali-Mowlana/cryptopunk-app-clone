@@ -1,5 +1,5 @@
 import React from "react";
-import weth from "../assets/weth.png";
+import weth from "../../assets/weth.png";
 import "./CollectionCard.css";
 
 const CollectionCard = ({ id, name, traits, image }) => {

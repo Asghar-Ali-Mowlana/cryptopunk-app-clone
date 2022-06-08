@@ -1,5 +1,5 @@
 import React from "react";
-import CollectionCard from "./CollectionCard";
+import CollectionCard from "../Collection/CollectionCard";
 import "./PunkList.css";
 
 const PunkList = ({ punkListData, setSelectedPunk }) => {

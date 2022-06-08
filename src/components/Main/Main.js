@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Main.css";
-import instagramLogo from "../assets/owner/instagram.png";
-import twitterLogo from "../assets/owner/twitter.png";
-import moreIcon from "../assets/owner/more.png";
+import instagramLogo from "../../assets/owner/instagram.png";
+import twitterLogo from "../../assets/owner/twitter.png";
+import moreIcon from "../../assets/owner/more.png";
 
 const Main = ({ selectedPunk, punkListData }) => {
   const [activePunk, setActivePunk] = useState(punkListData[0]);

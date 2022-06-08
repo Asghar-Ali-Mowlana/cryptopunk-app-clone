@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import PunkList from "./components/PunkList";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import PunkList from "./components/PunkList/PunkList";
 
 function App() {
   const [punkListData, setPunkListData] = useState([]);
